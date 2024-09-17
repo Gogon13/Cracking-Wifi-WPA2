@@ -7,7 +7,11 @@
 ![6](https://github.com/user-attachments/assets/253318bc-9329-44a7-ac18-8e7d46488962)
 ![7](https://github.com/user-attachments/assets/1f0c806b-bfda-45c6-832b-9968a0788c46)
 ![2](https://github.com/user-attachments/assets/8e4201c5-2422-4a1a-850a-73399e7da2c7)
+
 Wait until the passwords match
+
 ![11](https://github.com/user-attachments/assets/dd3c3c3d-35d0-47c1-8167-43b9ef2b75d3)
+
 Another example of an easy password doesn't wait a long time
+
 ![13](https://github.com/user-attachments/assets/98d261c7-8c14-4124-b65b-a90e0e9e118a)
